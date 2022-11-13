@@ -1,0 +1,105 @@
+/* common nav styles */
+.navigation-wrapper {
+    height: 60px;
+    background-color: black;
+    /* Flex container */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation-wrapper > .left-column > .logo svg {
+    height: 30px;
+    margin-left: 15px;
+}
+
+.navigation-wrapper > .center-column {
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 18%;
+}
+
+h1 {
+    color: yellow;
+    font-size: 1em;
+    margin: 0 0
+    ;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .nav-links a:hover {
+    color: #C6C6BF;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .dropdown #spark {
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    background: none;
+    border: 0;
+    width: 85%;
+}
+
+.navigation-wrapper > .right-column {
+    width: 300px;
+    padding-right: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-wrapper > .right-column > .create {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(84, 83, 83);
+    color: white;
+    border: 1px solid rgb(84, 83, 83);
+    border-radius: 2px;
+    padding: 8px;
+    height: 40px;
+    text-align: center;
+}
+
+.navigation-wrapper > .right-column > .dropdown > .btn > i {
+    color: greenyellow;
+}
+
+.navigation-wrapper > .right-column > .icon {
+    color: grey;
+    font-size: 1.7em;
+}
+
+.navigation-wrapper > .right-column > .session-btn-wrapper {
+    width: 135px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(84, 83, 83);
+    color: white;
+    border: 1px solid rgb(84, 83, 83);
+    border-radius: 3px;
+    padding: 10px;
+    outline: none;
+    height: 40px;
+    transition: 0.2s;
+}
+
+.btn:active {
+    background-color: #5CEC45;
+    color: black;
+}
+

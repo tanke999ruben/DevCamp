@@ -1,0 +1,28 @@
+/* Common styles */
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', serif;
+}
+
+p {
+    font-family: 'Roboto', serif;
+}
+
+
+.blue-color {
+    color: aqua;
+}
+
+.bold-text {
+    font-weight: 500;
+    color: white;
+}
+
+.capital {
+    font-size: 1.2em;
+    font-weight: 700;
+}
